@@ -1,23 +1,8 @@
 <?php
   require_once __DIR__ . '/classes/Movie.php';
 
-  $movieList = [
-    [
-      'nome' => 'a1',
-    'genere' => 'a2',
-    'descrizione' => 'a3'
-    ],
-    [
-      'nome' => 'b1',
-    'genere' => 'b2',
-    'descrizione' => 'b3'
-    ],
-    [
-      'nome' => 'c1',
-    'genere' => 'c2',
-    'descrizione' => 'c3'
-    ]
-  ]
+  $movie1 = new Movie('titolo1', 'genere1', 'descrizione1.');
+  $movie2 = new Movie('titolo2', 'genere2', 'descrizione2.');
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +14,11 @@
 </head>
 <body>
   
-
+  <div>
+    <h2>
+      <?php echo this->titolo ?>
+    </h2>
+  </div>
 
 </body>
 </html>

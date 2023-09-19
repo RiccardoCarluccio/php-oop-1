@@ -1,7 +1,7 @@
 class Movie {
   public &titolo;
   public &genere;
-  public &description;
+  public &descrizione;
 
   function __construct($_titolo, $_genere, $_description) {
     $this->titolo = $_titolo;
@@ -9,7 +9,7 @@ class Movie {
     $this->descrizione = $_descrizione;
   }
 
-  public function concatenate() {
-    return 'Titolo:' $this->titolo . '. Genere:' . $this->genere . '. Descrizione' . $this->descrizione;
+  public function stampaDati() {
+    return 'Titolo: ' $this->titolo . '. Genere: ' . $this->genere . '. Descrizione: ' . $this->descrizione;
   }
 }
