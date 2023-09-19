@@ -1,7 +1,7 @@
 class Movie {
-  public &titolo;
-  public &genere;
-  public &descrizione;
+  public $titolo;
+  public $genere;
+  public $descrizione;
 
   function __construct($_titolo, $_genere, $_description) {
     $this->titolo = $_titolo;
