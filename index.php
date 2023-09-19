@@ -16,7 +16,7 @@
   
   <div>
     <h2>
-      <?php echo Movie->titolo ?>
+      <?php echo $movie1->titolo ?>
     </h2>
   </div>
 
