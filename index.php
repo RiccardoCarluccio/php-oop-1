@@ -16,7 +16,10 @@
   
   <div>
     <h2>
-      <?php echo $movie1->titolo ?>
+      <?php echo $movie1->stampaDati() ?>
+    </h2>
+    <h2>
+      <?php echo $movie2->stampaDati() ?>
     </h2>
   </div>
 
